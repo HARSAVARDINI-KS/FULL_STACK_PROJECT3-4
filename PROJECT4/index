@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Flip Card with Emoji</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>3D Flip Card</h1>
+
+  <div class="card-container">
+    <article class="flip-card">
+      <div class="flip-card-inner">
+        
+        <!-- Front Side -->
+        <div class="flip-card-front">
+          <div class="emoji">💻</div>
+          <h3>Web Development</h3>
+          <p>Crafting modern websites</p>
+        </div>
+
+        <!-- Back Side -->
+        <div class="flip-card-back">
+          <h3>Our Work</h3>
+          <p>We specialize in creating responsive, user-friendly websites using the latest technologies to ensure great user experience.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+
+      </div>
+    </article>
+  </div>
+
+</body>
+</html>
